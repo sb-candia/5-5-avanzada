@@ -10,23 +10,40 @@ El código fue reorganizado utilizando el patrón MVC para separar responsabilid
 ## Estructura del proyecto
 
 gestor_estudiantes_mvc/
+
 │
+
 ├── main.py
+
 │
+
 ├── models/
+
 │ └── estudiante.py
+
 │
 ├── views/
+
 │ └── estudiante_view.py
+
 │
+
 ├── controllers/
+
 │ └── estudiante_controller.py
+
 │
+
 ├── database/
+
 │ └── conexion.py
+
 │
+
 └── data/
+
 └── crud.py
+
 
 
 ## Ejecución
