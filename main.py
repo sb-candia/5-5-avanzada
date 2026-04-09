@@ -1,5 +1,5 @@
 from database import conectar, crear_tabla
-from crud import crear, leer, actualizar, eliminar
+from data.crud import crear, leer, actualizar, eliminar
 
 def menu() -> None:
     print("\n--- SISTEMA DE ESTUDIANTES ---")
